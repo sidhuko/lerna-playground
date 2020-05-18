@@ -1,0 +1,9 @@
+{
+  "name": "@sidhuko/lerna-package-1",
+  "version": "0.0.0",
+  "private": true,
+  "author": "James Thomas Sidhu <james.thomas.sidhu@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

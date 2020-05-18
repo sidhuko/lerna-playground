@@ -1,0 +1,19 @@
+{
+  "name": "@sidhuko/lerna-playground",
+  "version": "0.0.0",
+  "private": true,
+  "author": "James Thomas Sidhu <james.thomas.sidhu@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "commit": "commit",
+    "start": "echo 'Hello world'"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/prompt-cli": "^8.3.5"
+  }
+}
